@@ -18,4 +18,4 @@
 ## Authors
 
 * **Ricardo Arquímedes Castro** | [Twitter](https://twitter.com/richardcqt) | [Github](https://github.com/RicardoArquimedes) |
-* **Jocelyn Vega** | [Twitter](https://twitter.com/crisbedbla) | [Github](https://github.com/cristian-bedoya) |
+* **Cristian Bedoya** | [Twitter](https://twitter.com/crisbedbla) | [Github](https://github.com/cristian-bedoya) |
