@@ -11,17 +11,16 @@
  *
  * Return: pivot final index
  */
-int partition(int *array, size_t low, size_t high, size_t size)
+int partition(int *array, int low, int high, size_t size)
 {
 	int pivot, temp;
-	size_t i, j;
+	int i, j;
 
 	pivot = array[high];
 	i = low;
 
-	for (j = low; j <= high; j++)
-	{
-		if (array[j] < pivot)
+	for (j = low; j < high; j++)
+		if (array[j] <= pivot)
 		{
 			if (i != j)
 			{
@@ -32,8 +31,7 @@ int partition(int *array, size_t low, size_t high, size_t size)
 			}
 			i++;
 		}
-		j++;
-	}
+
 	if (i != high)
 	{
 		temp = array[i];
